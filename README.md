@@ -2,6 +2,6 @@
 Criando um portifólio no laboratório. 
 
 
-Com a mentoria do melhor professor Augusto Cesar. 
+Com a mentoria do melhor professor [Augusto Cesar](https://github.com/augustocesarfmo) 
 
-Github do professor : [Links](https://github.com/augustocesarfmo)
+Site de inspiração e modelo : [Dopefolio](https://dopefolio.netlify.app/)
