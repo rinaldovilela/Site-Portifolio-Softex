@@ -139,7 +139,7 @@ section {
 
 .home-hero {
     color: #fff;
-    background: linear-gradient(to right, rgba(0,98,185,0.8), rgba(0,98,185,0.8)),url(./Img/bg-portifolio.svg);
+    background: linear-gradient(to right, rgba(0,98,185,0.8), rgba(0,98,185,0.8)),url(./Img/quantum-gradient.svg);
     background-position: center;
     height: 100vh;
     min-height: 80rem;
