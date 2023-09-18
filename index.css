@@ -203,6 +203,7 @@ section {
 }
 
 .btn--bg{
+    background: radial-gradient(#31b4ec, #017ce8);
     padding: 1.5rem 8rem;
     font-size: 2rem;
 }
@@ -280,7 +281,7 @@ section {
 }
 
 .btn--theme {
-    background: #0062b9;
+    background: linear-gradient(to right, rgba(0,98,185,0.8), rgba(0, 57, 107, 0.848));
     color: #fff;
 }
 
@@ -380,7 +381,7 @@ section {
 }
 
 .contact {
-    background: linear-gradient(to right, rgba(0,98,185,0.8), rgba(0,98,185,0.8)),url(./Img/bg-portifolio.svg);
+    background: linear-gradient(to right, rgba(0,98,185,0.8), rgba(0,98,185,0.8)),url(./Img/quantum-gradient.svg);
     background-size: cover;
     background-position: center;
 }
