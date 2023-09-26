@@ -1,226 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="https://avatars.githubusercontent.com/u/134212408?v=4"
-              alt="My photo" class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Rinaldo Vilela</span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rinaldo Vilela</title>
+</head>
+<body>
+<header>
+    <div class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn-icon-header">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="logo-header">
+            <img class="img-logo-header" src="https://avatars.githubusercontent.com/u/134212408?v=4" alt="logo-image">
+            <span class="text-logo">Rinaldo Vilela</span>
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper"><a class="header__link"  href="/"> Home </a></li>
-            <li class="header__link-wrapper"><a class="header__link" href="/#about"> About </a></li>
-            <li class="header__link-wrapper"><a class="header__link" href="/#projects"> Projects </a></li>
-            <li class="header__link-wrapper"><a class="header__link" href="/#contact"> Contact </a></li>
+        <div class="navigation-header" id="navigation_header">
+            <button onclick="toggleSidebar()" class="btn-icon-header">
+                <i class="fa fa-close"></i>
+            </button>
+            <a class="navigation-link-menu" href="section-home">HOME</a>
+            <a class="navigation-link-menu" href="#section-about-me">ABOUT</a>
+            <a class="navigation-link-menu" href="#section-projects">PROJECTS</a>
+            <a class="navigation-link-menu" href="#section-contact">CONTACT</a>
+        </div>
+    </div>
+</header>
+<main class="main-content" id="content">
+    <section class="section section-home" id="section-home">
+        <h1>Olá, meu nome é Rinaldo Vilela</h1>
+        <p>Esté é meu portifólio. </p>
+
+        <div><a class="btn" href="#section-projects">PROJECTS</a></div>
+    </section>
+    <section class="section section-about-me" id="section-about-me">
+        <h2>About me</h2>
+      <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae
+        quod deserunt eius
+        sapiente</p>
+
+      <div class="section-about-me-content">
+        <div>
+          <h3>Get to know me!</h3>
+          <p class="paragraph" style="margin-bottom: 10px">Hey! It's John Doe and I'm a Frontend Web Developer located
+            in
+            Los Angeles. I've done
+            remote projects for
+            agencies, consulted for startups, and collaborated with talented people to create digital products for both
+            business and consumer use.</p>
+          <p class="paragraph">I'm a bit of a digital product junky. Over the years, I've
+            used hundreds of web and
+            mobile apps in
+            different industries and verticals. Feel free to contact me here.</p>
+          <a href="" class="btn" style="margin-top: 30px;">contact</a>
+        </div>
+
+        <div>
+          <h3>My Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>SASS</li>
+            <li>Git</li>
+            <li>Wordpress</li>
           </ul>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="home-hero">
-        <div class="home-hero__content">
-          <h1 class="heading-primary">Oi, meu nome é Rinaldo Vilela</h1>
-          <div class="home-hero__info">
-            <p class="text-primary"><pre class="text-primary">
-"Este é meu primeiro portifólio orientado na criação pelo Professor : Augusto Cesar. "</pre>
-            </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
-        </div>
-        </div>
-      </section>
-      <section id="about" class="about sec-pad">
-        <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">
-            Sobre mim
-          </span>
-          <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Hey! It's
-                <strong>John Doe</strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Los Angeles. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong>digital products </strong>
-                for both business and consumer use.
-              </p>
-              <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to
-                <strong>contact</strong> me here.
-              </p>
-            </div>
+    </section>
+    <section class="section section-projects" id="section-projects">
+        <h2>Projects</h2>
+      <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae
+        quod deserunt eius sapiente</p>
+
+      <ul>
+        <li>
+          <div class="project-img">
+            <img style="width: 70%;" src="./img/computer-monitor-svgrepo-com.svg" alt="Project mockup">
           </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">SASS</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Shopify</div>
-              <div class="skills__skill">Wordpress</div>
-              <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">IOS</div>
-            </div>
+          <div class="project-content">
+            <h3>Project 1</h3>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo
+              quae quod
+              deserunt eius sapiente praesentium.</p>
+            <a href="" class="btn">Case study</a>
           </div>
+        </li>
+
+        <li>
+          <div class="project-img">
+            <img style="width: 70%;" src="./img/computer-monitor-svgrepo-com.svg" alt="Project mockup">
+          </div>
+          <div class="project-content">
+            <h3>Project 2</h3>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo
+              quae quod
+              deserunt eius sapiente praesentium.</p>
+            <a href="" class="btn">Case study</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="project-img">
+            <img style="width: 70%;" src="./img/computer-monitor-svgrepo-com.svg" alt="Project mockup">
+          </div>
+          <div class="project-content">
+            <h3>Project 3</h3>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo
+              quae quod
+              deserunt eius sapiente praesentium.</p>
+            <a href="" class="btn">Case study</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="section section-contact" id="section-contact">
+        <h2>Contact</h2>
+      <p class="subtitle">Entre em contato comigo . / Contact me .  </p>
+      <form>
+        <div>
+          <label for="nome">
+            Name
+          </label>
+          <input type="text" name="nome" id="" placeholder="Enter your name">
         </div>
+
+        <div>
+          <label for="email">
+            E-mail
+          </label>
+          <input type="email" name="email" id="" placeholder="Enter your e-mail">
         </div>
-      </section>
-      <section id="projects" class="projects sec-pad">
-        <div class="main-container">
-          <h2 class="heading heading-sec heading-sec__mb-bg">
-            <span class="heading-sec__main">Projects</span>
-            <span class="heading-sec__sub">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-              tempora explicabo quae quod deserunt eius sapiente
-            </span>
-          </h2>
+
+        <div>
+          <label for="message">
+            Message
+          </label>
+          <textarea required="" rows="10" placeholder="Enter your message" name="message"></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+</main>
+<footer class="main-content" id="content">
+    <div class="footer-top">
+        <div class="footer-top-content">
+          <h4>Rinaldo Vilela</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis tempora explicabo quae quod deserunt</p>
+        </div>
   
-          <div class="projects__content">
-            <div class="projects__row">
-              <div class="projects__row-img-cont">
-                <img src="https://dopefolio.netlify.app/assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img" loading="lazy">
-              </div>
-              <div class="projects__row-content">
-                <h3 class="projects__row-content-title">Project 1</h3>
-                <p class="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
-                </p>
-                <a class="btn btn--med btn--theme dynamicBgClr" href="/project-1" target="_blank">Case Study</a>
-              </div>
-            </div>
-            <div class="projects__row">
-              <div class="projects__row-img-cont">
-                <img src="https://dopefolio.netlify.app/assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img" loading="lazy">
-              </div>
-              <div class="projects__row-content">
-                <h3 class="projects__row-content-title">Project 2</h3>
-                <p class="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
-                </p>
-                <a class="btn btn--med btn--theme dynamicBgClr" href="/project-2" target="_blank">Case Study</a>
-              </div>
-            </div>
-            <div class="projects__row">
-              <div class="projects__row-img-cont">
-                <img src="https://dopefolio.netlify.app/assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img" loading="lazy">
-              </div>
-              <div class="projects__row-content">
-                <h3 class="projects__row-content-title">Project 3</h3>
-                <p class="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
-                </p>
-                <a class="btn btn--med btn--theme dynamicBgClr" href="/project-3" target="_blank">Case Study</a>
-              </div>
-            </div>
+        <div>
+          <h4>Social</h4>
+          <div>
+            <a href="https://www.linkedin.com/in/rinaldo-alves-28847a194/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/rinaldovilela" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/naldinhovilela" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/rinaldovilela/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
-        </div>
-      </section>
-      <section id="contact" class="contact sec-pad dynamicBg">
-        <div class="main-container">
-          <h2 class="heading heading-sec heading-sec__mb-med">
-            <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-            <span class="heading-sec__sub heading-sec__sub--lt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-              tempora explicabo quae quod deserunt eius sapiente
-            </span>
-          </h2>
-          <div class="contact__form-container">
-            <form action="#" class="contact__form">
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="name">Name</label>
-                <input required="" placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name">
-              </div>
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="email">Email</label>
-                <input required="" placeholder="Enter Your Email" type="text" class="contact__form-input" name="email" id="email">
-              </div>
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="message">Message</label>
-                <textarea required="" cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
-              </div>
-              <button type="submit" class="btn btn--theme contact__btn">
-                Submit
-              </button>
-            </form>
-          </div>
-        </div>
-      </section> 
-    </main>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
-                <img class="main-footer__icon" src="./Img/linkedin-ico.png" alt="icon">
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img class="main-footer__icon" src="./Img/github-ico.png" alt="icon">
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img class="main-footer__icon" src="./Img/twitter-ico.png" alt="icon">
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img class="main-footer__icon" src="./Img/yt-ico.png" alt="icon">
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img class="main-footer__icon main-footer__icon--mr-none" src="./Img/insta-ico.png" alt="icon">
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Rinaldo Vilela</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
-          </div>
-        </div>
-        <div class="main-footer__lower">
-          © Portifolio 2023. Softex.
-          <a rel="noreferrer" target="_blank" href="https://github.com/rinaldovilela">Rinaldo Vilela</a>
         </div>
       </div>
-    </footer>
-    <script></script>
-  </body>
+  
+      
+      <div class="footer-bottom">
+        <span>
+          © Copyright 2023. Made by
+          <a rel="noreferrer" target="_blank" href="https://github.com/rinaldovilela">
+            <strong>Rinaldo Vilela</strong>
+          </a>
+        </span>
+      </div>
+</footer>
+</body>
+<script src="index.js"></script>
 </html>
