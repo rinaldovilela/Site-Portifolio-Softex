@@ -21,40 +21,36 @@
             <button onclick="toggleSidebar()" class="btn-icon-header">
                 <i class="fa fa-close"></i>
             </button>
-            <a class="navigation-link-menu" href="section-home">HOME</a>
+            <a class="navigation-link-menu" href="#section-home">HOME</a>
             <a class="navigation-link-menu" href="#section-about-me">ABOUT</a>
             <a class="navigation-link-menu" href="#section-projects">PROJECTS</a>
             <a class="navigation-link-menu" href="#section-contact">CONTACT</a>
         </div>
     </div>
 </header>
-<main class="main-content" id="content">
+<main tabindex="0" onclick="closeSidebar()" class="main-content" id="content">
     <section class="section section-home" id="section-home">
-        <h1>Olá, meu nome é Rinaldo Vilela</h1>
-        <p>Esté é meu portifólio. </p>
+        <h1>Hi, my name is Rinaldo Vilela</h1>
+        <p>This is my portfolio. Welcome! </p>
 
         <div><a class="btn" href="#section-projects">PROJECTS</a></div>
     </section>
     <section class="section section-about-me" id="section-about-me">
         <h2>About me</h2>
-      <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae
-        quod deserunt eius
-        sapiente</p>
+      <p class="subtitle"><p class=" subtitle-about">Passionate about web development and design.</p>
+    </p>
 
       <div class="section-about-me-content">
         <div>
           <h3>Get to know me!</h3>
-          <p class="paragraph" style="margin-bottom: 10px">Hey! It's John Doe and I'm a Frontend Web Developer located
-            in
-            Los Angeles. I've done
-            remote projects for
-            agencies, consulted for startups, and collaborated with talented people to create digital products for both
-            business and consumer use.</p>
-          <p class="paragraph">I'm a bit of a digital product junky. Over the years, I've
-            used hundreds of web and
-            mobile apps in
-            different industries and verticals. Feel free to contact me here.</p>
-          <a href="" class="btn" style="margin-top: 30px;">contact</a>
+          <p class="paragraph" style="margin-bottom: 10px">Hello! I'm Rinaldo Vilela, a Frontend Web Developer
+            from
+            Recife, Brazil. I've had the pleasure of working on remote projects and collaborating with talented individuals to bring digital products to life
+            for both businesses and consumers.</p>
+          <p class="paragraph">I have a passion for all things digital. Over the years, I've had the opportunity to
+            explore and use hundreds of web and mobile apps across different industries and verticals. Feel free to
+            reach out to me here.</p>
+          <a href="#section-contact" class="btn" style="margin-top: 30px;">Contact Me</a>
         </div>
 
         <div>
@@ -73,8 +69,7 @@
     </section>
     <section class="section section-projects" id="section-projects">
         <h2>Projects</h2>
-      <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae
-        quod deserunt eius sapiente</p>
+      <p class="subtitle">Explore some of the exciting projects I've had the privilege to work on.</p>
 
       <ul>
         <li>
@@ -147,33 +142,32 @@
     </section>
 </main>
 <footer class="main-content" id="content-footer">
-    <div class="footer-top">
-        <div class="footer-top-content">
+  <div class="footer-top">
+      <div class="footer-top-content">
           <h4>Rinaldo Vilela</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis tempora explicabo quae quod deserunt</p>
-        </div>
-  
-        <div>
-          <h4>Social</h4>
+          <p>Hi, I'm Rinaldo Vilela, a web developer passionate about creating digital experiences. Connect with me and let's bring your ideas to life.</p>
+      </div>
+
+      <div>
+          <h4>Follow Me</h4>
           <div>
-            <a href="https://www.linkedin.com/in/rinaldo-alves-28847a194/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://github.com/rinaldovilela" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/naldinhovilela" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/rinaldovilela/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/rinaldo-alves-28847a194/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://github.com/rinaldovilela" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/naldinhovilela" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/rinaldovilela/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
-        </div>
       </div>
-  
-      
-      <div class="footer-bottom">
-        <span>
-          © Copyright 2023. Made by
+  </div>
+
+  <div class="footer-bottom">
+      <span>
+          © 2023 All rights reserved. Designed and developed by
           <a rel="noreferrer" target="_blank" href="https://github.com/rinaldovilela">
-            <strong>Rinaldo Vilela</strong>
+              <strong>Rinaldo Vilela</strong>
           </a>
-        </span>
-      </div>
+      </span>
+  </div>
 </footer>
 </body>
 <script src="index.js"></script>
