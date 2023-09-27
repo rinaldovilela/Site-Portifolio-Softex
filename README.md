@@ -1,6 +1,6 @@
 # Site Portfólio Softex
 
-![Site Preview](link_para_uma_imagem_do_site.jpg)
+![Site Preview]([link_para_uma_imagem_do_site.jpg](https://github.com/rinaldovilela/Site-Portifolio-Softex/blob/main/Img/rinaldovilela.github.io_Site-Portifolio-Softex_.png?raw=true))
 
 Este é o repositório do meu site portfólio, onde eu mostro meus projetos, habilidades e informações sobre mim. O site foi desenvolvido como parte do laboratório de desenvolvimento web, sob a mentoria do professor [Augusto Cesar](https://github.com/augustocesarfmo).
 
