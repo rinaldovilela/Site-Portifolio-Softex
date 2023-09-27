@@ -287,7 +287,7 @@ flex-wrap: wrap;
 /* section contact */
 .section-contact {
     background: 
-      url(/img/large-triangles.svg);
+      url(img/large-triangles.svg);
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -295,7 +295,8 @@ flex-wrap: wrap;
   
 .section-contact > h2,
 .subtitle {
-      color: #fff;
+      color: #b040ff;
+      text-shadow: 0.5px 0.5px 1px #af40ff44;
     }
   
 .section-contact > h2::after {
