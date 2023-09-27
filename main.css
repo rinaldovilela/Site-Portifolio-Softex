@@ -14,7 +14,7 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #272727;
+    background-color: #44475a;
     color: #fff;
     position: relative;
 }
@@ -65,7 +65,7 @@ margin: 0px 10rem;
 
 .paragraph {
 font-size: 1.2rem;
-color: grey;
+color: #f8f8f2;
 line-height: 1.7;
 }
 
@@ -97,7 +97,7 @@ position: absolute;
 top: calc(100% + 1.5rem);
 height: 5px;
 width: 2rem;
-background: #b040ff ;
+background: #ff00fc ;
 left: 50%;
 transform: translateX(-50%);
 border-radius: 5px;
@@ -127,7 +127,7 @@ letter-spacing: 1px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
-    text-shadow: 1px 1px 4px #b040ff;
+    text-shadow: 0.5px 1px 1px #af40ff71;
 }
 
 .img-logo-header {
@@ -149,6 +149,13 @@ letter-spacing: 1px;
     height: 3.5;
     justify-content: space-between;
     padding: 0% 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
 
 }
 
@@ -159,7 +166,7 @@ letter-spacing: 1px;
 
 .navigation-header a{
     text-decoration: none;
-    color:  #b040ff;
+    color:  #ff00fc;
     transition: 1s;
     font-weight: bold;
 }
@@ -183,6 +190,9 @@ letter-spacing: 1px;
     font-size: 20px;
     display: none;
 }
+
+
+/* main */
 
 
 /* section home */
@@ -220,7 +230,7 @@ letter-spacing: 1px;
 
 /* section about me */
 .section-about-me {
-    background-color: #f7f7f7;
+    background-color: #282a36 ;
     display: block;
     text-align: center;
 }
@@ -239,7 +249,7 @@ text-align: initial;
 
 .section-about-me-content h3 {
 margin-bottom: 30px;
-text-shadow: 1px 1px 4px #b040ff
+text-shadow: 1px 1px 4px #d697ff;
 }
 
 .section-about-me-content ul {
@@ -254,7 +264,7 @@ flex-wrap: wrap;
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     font-weight: 600;
-    color: #777;
+    color: #ffffff;
 }
 
 /* section projects */
@@ -281,7 +291,14 @@ flex-wrap: wrap;
     margin-top: 50px;
 }
 
+.subtitle-about{
+  /* color: #d697ff;
+  text-shadow: 0.5px 0.5px 1px #b040ff; */
+  color: #e8cdfa;
+  text-shadow: 0.5px 0.5px 1px #af40ff44;
+  font-size: 1.4rem;
 
+}
 
 
 /* section contact */
@@ -295,12 +312,14 @@ flex-wrap: wrap;
   
 .section-contact > h2,
 .subtitle {
-      color: #b040ff;
+      /* color: #f5ecfc;
+      text-shadow: 0.5px 0.5px 1px #af40ff44; */
+      color: #e8cdfa;
       text-shadow: 0.5px 0.5px 1px #af40ff44;
     }
   
 .section-contact > h2::after {
-      background: #fff;
+      background: #ff00fc;
     }
   
 .section-contact > form {
@@ -331,6 +350,7 @@ flex-wrap: wrap;
       align-self: flex-end;
     }
 
+
   
   form input,
   textarea {
@@ -347,7 +367,7 @@ flex-wrap: wrap;
 
   /* footer */
 footer {
-    background: #000;
+    background: #44475a;
     color: #fff;
     padding: 0px 6rem;
 }
@@ -404,11 +424,12 @@ footer {
         flex-direction: column;
         top: 0;
         background-color: #343434 ;
-        height: 100%;
+        height: 100vh;
         width: 35vw;
         padding: 1em;
         animation-duration: 1s;
         margin-left: -100vw;
+        
     }
 
     html {
@@ -459,6 +480,24 @@ footer {
           font-size: 0.9rem;
           /* // padding-top: 1.4rem;
           // padding-bottom: 1.4rem; */
+        }
+
+        /* .subtitle-about{
+          color: #d697ff;
+          text-shadow: 0.5px 0.5px 1px #b040ff;
+          font-size: 1.4rem;
+        }
+        
+        
+        .subtitle {
+        color: #e8cdfa;
+        text-shadow: 0.5px 0.5px 1px #af40ff44;
+        } */
+
+        
+
+        .project-img {
+          text-align: center;
         }
     }
     
