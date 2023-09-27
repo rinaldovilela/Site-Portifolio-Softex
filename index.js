@@ -1,6 +1,7 @@
 var header = document.getElementById('header');
 var navigationHeader = document.getElementById('navigation_header');
 var content = document.getElementById('content');
+var contentFooter = document.getElementById('content-footer')
 var showSidebar = false;
 
 function toggleSidebar()
@@ -11,6 +12,7 @@ function toggleSidebar()
         console.log(showSidebar)
         navigationHeader.style.animationName = 'showSidebar'
         content.style.filter = 'blur(2px)';
+        contentFooter.style.filter = 'blur(2px)';
     }
     else
     {
@@ -18,6 +20,7 @@ function toggleSidebar()
         console.log(showSidebar)
         navigationHeader.style.animationName = 'closeSidebar'
         content.style.filter = '';
+        contentFooter.style.filter = '';
     }
     
 }
