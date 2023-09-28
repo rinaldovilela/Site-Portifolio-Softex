@@ -268,6 +268,10 @@ flex-wrap: wrap;
 }
 
 /* section projects */
+.section-projects>h2{
+  text-shadow: 1px 1px 4px #b040ff
+}
+
 .section-projects ul {
     margin-top: 100px;
   }
@@ -300,6 +304,10 @@ flex-wrap: wrap;
 
 }
 
+.project-img-content{
+  border-radius: 16px;
+}
+
 
 /* section contact */
 .section-contact {
@@ -314,8 +322,8 @@ flex-wrap: wrap;
 .subtitle {
       /* color: #f5ecfc;
       text-shadow: 0.5px 0.5px 1px #af40ff44; */
-      color: #e8cdfa;
-      text-shadow: 0.5px 0.5px 1px #af40ff44;
+      color: #f8eefe;
+      text-shadow: 1px 1px 4px #b040ff;
     }
   
 .section-contact > h2::after {
