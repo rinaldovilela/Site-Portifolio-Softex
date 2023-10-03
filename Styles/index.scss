@@ -1,5 +1,24 @@
 @use "global";
 
-//header
+// header
 
-@use "/Styles/components/header"
+@use "./components/header";
+
+// section
+
+@use "./Sections/section-home";
+@use "./Sections/section-about-me";
+@use "./Sections/section-projects";
+@use "./Sections/section-contact";
+
+// footer
+
+@use "./components/footer";
+
+// mobile
+
+@use "./mobile";
+
+// animation 
+
+@use "./animation"

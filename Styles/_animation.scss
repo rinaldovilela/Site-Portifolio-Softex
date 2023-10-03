@@ -1,0 +1,9 @@
+@keyframes showSidebar {
+    from {margin-left: -100vw;}    
+    to {margin-left: -10vw;}
+}
+
+@keyframes closeSidebar {
+    from {margin-left: -10vw;}    
+    to {margin-left: -100vw;}
+}
